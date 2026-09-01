@@ -1,0 +1,15 @@
+VANITUS WEBSITE v20.6.0
+Deployment Candidate
+
+Changes from v20.5.1:
+- Published the approved 2026 VANITUS Capability Statement.
+- Added a first-party PDF download inside Contracting Information.
+- Embedded the PDF in the standalone review preview.
+
+Controls retained:
+- Approved primary and secondary NAICS classifications remain published.
+- About identifies VANITUS as South Florida-based, veteran-founded and led.
+- No public operating email.
+- No unsupported PSC codes or certifications.
+- No Canva or Figma dependency in the public website.
+- No production deployment performed during preparation.
