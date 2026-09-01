@@ -3,7 +3,7 @@ import path from 'node:path'
 
 const root = path.resolve(import.meta.dirname, '..')
 const dist = path.join(root, 'dist')
-const output = path.join(root, 'VANITUS-v20.6.0-capability-statement-live-preview.html')
+const output = path.join(root, 'VANITUS-v20.7-visual-alignment-preview.html')
 
 let html = await readFile(path.join(dist, 'index.html'), 'utf8')
 const css = await readFile(path.join(dist, 'assets/site.css'), 'utf8')
@@ -24,6 +24,12 @@ const assets = [
   ['image/webp', 'images/vanitus-columns-640.webp'],
   ['image/webp', 'images/vanitus-columns-960.webp'],
   ['image/webp', 'images/vanitus-columns-1440.webp'],
+  ['image/webp', 'images/vanitus-technology-640.webp'],
+  ['image/webp', 'images/vanitus-technology-960.webp'],
+  ['image/webp', 'images/vanitus-technology-1440.webp'],
+  ['image/webp', 'images/vanitus-fulfillment-640.webp'],
+  ['image/webp', 'images/vanitus-fulfillment-960.webp'],
+  ['image/webp', 'images/vanitus-fulfillment-1440.webp'],
   ['image/webp', 'images/vanitus-pantheon-640.webp'],
   ['image/webp', 'images/vanitus-pantheon-960.webp'],
   ['image/webp', 'images/vanitus-pantheon-1440.webp'],

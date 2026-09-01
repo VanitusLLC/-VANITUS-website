@@ -84,6 +84,10 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .visual-break-media, .visual-break-media img { width: 100%; height: 100%; }
 .visual-break-media img { object-fit: cover; object-position: center 49%; filter: saturate(.58) sepia(.08) contrast(1.08) brightness(.78); transform: scale(1.025); transition: transform 10s cubic-bezier(.16,1,.3,1); will-change: transform; }
 .visual-break::after { content: ""; position: absolute; inset: 0; z-index: 1; pointer-events: none; background: linear-gradient(90deg, rgba(17,17,15,.28), transparent 27%, transparent 73%, rgba(17,17,15,.28)), linear-gradient(180deg, rgba(17,17,15,.1), transparent 48%, rgba(17,17,15,.18)); box-shadow: inset 0 0 0 1px rgba(242,238,230,.07); }
+.visual-break-technology .visual-break-media img { object-position: center 52%; filter: saturate(.34) sepia(.06) contrast(1.2) brightness(.62); }
+.visual-break-technology::after { background: linear-gradient(90deg, rgba(12,13,13,.44), transparent 34%, transparent 72%, rgba(12,13,13,.5)), linear-gradient(180deg, rgba(176,141,87,.08), transparent 42%, rgba(10,10,9,.34)); }
+.visual-break-fulfillment .visual-break-media img { object-position: center 51%; filter: saturate(.3) sepia(.2) contrast(1.18) brightness(.62); }
+.visual-break-fulfillment::after { background: linear-gradient(90deg, rgba(17,15,12,.4), transparent 30%, transparent 70%, rgba(17,15,12,.42)), linear-gradient(180deg, rgba(176,141,87,.12), transparent 44%, rgba(13,12,10,.34)); }
 .js .visual-break.is-visible .visual-break-media img { transform: scale(1.075); }
 
 .contracting-panel { display: grid; grid-template-columns: repeat(3, 1fr); border: 1px solid var(--line-dark); }
@@ -242,6 +246,8 @@ input:focus, select:focus, textarea:focus { border-color: var(--gold-dark); outl
   .capability-card h3 { margin-top: 18px; }
   .visual-break { height: clamp(210px, 62vw, 250px); }
   .visual-break-media img { object-position: center 48%; }
+  .visual-break-technology .visual-break-media img { object-position: 57% 52%; }
+  .visual-break-fulfillment .visual-break-media img { object-position: 50% 52%; }
   .about-media { height: 228px; }
   .about-media img { object-position: 50% 42%; }
   .about-card { padding: 42px 22px 46px; }
