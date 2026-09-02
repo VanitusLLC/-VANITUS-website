@@ -12,6 +12,18 @@
   to = "/terms/"
   status = 301
 
+[[redirects]]
+  from = "/VANITUS-gold-phone-icon-15px.png"
+  to = "/assets/vanitus-gold-phone-icon.svg"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/VANITUS-gold-website-icon-15px.png"
+  to = "/assets/vanitus-gold-website-icon.svg"
+  status = 301
+  force = true
+
 [[headers]]
   for = "/*"
   [headers.values]
